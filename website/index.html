@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Dillon Meacham</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
+
+</head>
+
+<body>
+
+
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #navxx-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">Dillon Meacham</h1>
+            <h3>Welcome to My Professional Hub</h3>
+            <hr />
+            <ul class="social">
+               <li><a href="https://www.linkedin.com/in/dillon-meacham-71745a2b0/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://www.github.com/DillonMeacham" target="_blank"><i class="fa fa-github"></i></a></li>
+            </ul>
+         </div>
+         <div class="counter-number"></div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/me.jpg" alt="" />
+
+         </div>
+
+
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>Results-driven IT professional with over 4 years of experience showcasing exceptional technical,
+               analytical, and communication skills. Adept at swiftly analyzing and resolving technical issues.
+               Actively enhances industry expertise through hands-on experience, online training, and engaging
+               projects. Committed to contributing to team success in achieving company goals.
+               
+            </p>
+
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Contact Details</h2>
+                  <p class="address">
+						   <span>Dillon Meacham</span><br>
+						   <span>214-770-6454</span><br>
+                     <span>meachamdillon52@gmail.com</span>
+					   </p>
+
+               </div>
+
+               <div class="columns download">
+                  <p>
+                    <a href="https://shorturl.at/gBW46" class="button" onclick="sendNotification()"><i class="fa fa-download"></i>Download Resume</a>
+                  </p>
+                </div>
+                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                <script>
+                  function sendNotification() {
+                    // Make an AJAX request to the Lambda function URL
+                    $.ajax({
+                      url: 'https://kxtuktrcwdngfktcpdeungxrji0fkkut.lambda-url.us-east-1.on.aws',
+                      type: 'POST',
+                      success: function(response) {
+                        // Handle the success response
+                        console.log(response);
+                      },
+                      error: function(error) {
+                        // Handle the error response
+                        console.error(error);
+                      }
+                    });
+                  }
+                </script>
+                
+
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <!-- WORK EXPERIENCE
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Experience</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>IT Analyst II - CarMax Technology</h3>
+                  <p class="info"><a href="https://www.carmax.com" target="_blank">CarMax</a> <span>&bull;</span> <em class="date">July 2023 - Present</em></p>
+                  <p>
+                     <div class="skills-section"></div>
+                     - Engage with 30,000+ internal users, delivering responsive support for software, hardware, and computing platforms including Citrix Cloud, Salesforce, Windows 10, O365.
+                     <div class="skills-section"></div>
+                     - Leveraged endpoint management tools including Microsoft Intune, AirWatch, and JAMF to troubleshoot endpoint issues.  
+                     <div class="skills-section"></div>
+                     - Manage ticket queues with ServiceNow to log, track, and escalate incidents.  
+                     <div class="skills-section"></div>
+                     - Managed and resolved user session issues on Citrix DaaS servers via Citrix Cloud.
+                     <div class="skills-section"></div>
+                     - Monitored trends and collaborated with IT teams, resulting in reduction in system downtime and improved customer satisfaction.
+                     <div class="skills-section"></div>
+                     - Skills: Citrix Cloud, System Monitoring, Microsoft Intune, Microsoft Teams, Office 365 Administration, Bomgar, Remote Troubleshooting, Windows 10, Technical Support, ServiceNow
+                  </p>
+                  
+
+               </div>
+
+            </div> <!-- item end -->
+
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>DevOps Engineer - Infrastructure</h3>
+                  <p class="info"><a href="https://www.concentra.com" target="_blank">Concentra</a> <span>&bull;</span> <em class="date">January 2023 - April 2023</em></p>
+
+
+                  <p>
+                     <div class="skills-section"></div>
+                     - Responsible for automating Azure Machine Learning infrastructure deployment via IaC with Terraform and GitLab CI/CD pipelines.
+                     <div class="skills-section"></div>
+                     - Utilized Jira & Confluence for project management. 
+                     <div class="skills-section"></div>
+                     - Resolved access issues from Development & Operations teams on various applications
+                     <div class="skills-section"></div>
+                     - Contributed to the transition from Bitbucket to GitLab for SCM, as well as Bamboo to GitLab for CI/CD pipelines.
+                     <div class="skills-section"></div>
+                     - Skills: Terraform, Azure, MLOps, GitLab, Git, Jira, Confluence. 
+                  </p>
+                  
+
+               </div>
+
+            </div> <!-- item end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>IT Support Specialist II - Tier 2</h3>
+                  <p class="info"><a href="https://www.concentra.com" target="_blank">Concentra</a> <span>&bull;</span> <em class="date">June 2022 - January 2023</em></p>
+
+
+                  <p>
+                     <div class="skills-section"></div>
+                     - Provided Tier 2 technical support, addressing escalated tickets from Tier 1 specialists.
+                     <div class="skills-section"></div>
+                     - Monitored, tracked, and updated incidents in ServiceNow, prioritizing high-priority tickets and escalations within expected response times.
+                     <div class="skills-section"></div>
+                     - Trained and mentored incoming IT support specialists on enterprise technologies.
+                     <div class="skills-section"></div>
+                     - Enhanced troubleshooting efficiency by creating and refining over 100 knowledge base articles.
+                     <div class="skills-section"></div>
+                     - Collaborated with cross-functional teams for effective problem resolution.
+                     <div class="skills-section"></div>
+                     - Skills: Incident Management · IT Management · Virtualization · Networking · Troubleshooting · Teamwork · Technical Support · Leadership · Customer Service 
+                  </p>
+                  
+
+               </div>
+
+            </div> <!-- item end -->
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>IT Support Specialist I - Tier 1</h3>
+                  <p class="info"><a href="https://www.concentra.com" target="_blank">Concentra</a> <span>&bull;</span> <em class="date">August 2021 - June 2022</em></p>
+
+
+                  <p>
+                     <div class="skills-section"></div>
+                     - Provided remote IT support for 10,000+ internal users, addressing software, hardware, and computing platforms such as Citrix DaaS, Igel Thin Clients, Windows 10, Active Directory, CiscoAnyConnect VPN, and AllScripts EHR. 
+                     <div class="skills-section"></div>
+                     - Managed Active Directory accounts and troubleshooted network issues with command line tools.
+                     <div class="skills-section"></div>
+                     - Utilized Splunk for IP diagnosis and managed ticket queues in ServiceNow for incident logging, tracking, and escalation.  
+                     <div class="skills-section"></div>
+                     - Troubleshot Citrix DaaS servers, resolving user session issues through Citrix Cloud.
+                     <div class="skills-section"></div>
+                     - Achieved first call resolution goals for Tier 1 support functions, conducting initial assessments and issue resolutions.
+                     <div class="skills-section"></div>
+                     - Skills: Incident Management · IT Management · Virtualization · Networking · Troubleshooting · Teamwork 
+                  </p>
+                  
+
+               </div>
+
+            </div> <!-- item end -->
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Desktop Technician</h3>
+                  <p class="info">Self Employed <span>&bull;</span> <em class="date">June 2019 - August 2021</em></p>
+
+                  <p>
+                     <div class="skills-section"></div>
+                     - Technical support and troubleshooting for desktop systems, including reviewing clients' workstations for hardware failures, and replacing parts as needed.
+                     <div class="skills-section"></div>
+                     - Purchased and built desktop workstations based on client needs and specifications. 
+                     <div class="skills-section"></div>
+                     - Identified and implemented software upgrades, firewalls, and antivirus software for clients.
+                     <div class="skills-section"></div>
+                     - Setup and troubleshoot printers.
+                     <div class="skills-section"></div> 
+                     - Skills: Consulting · IT Hardware Support · Technical Support 
+                  </p>
+                  
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+
+      <!-- CERTIFICATIONS
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Certifications</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>AWS Certified Cloud Practitioner</h3>
+                  <p class="info"><a href="https://www.credly.com/badges/8e01c296-c5ad-446b-a383-2240790b1c6e/public_url" target="_blank">Verify Here</a> <span>&bull;</span> <em class="date">Issued by Amazon Web Services</em></p>
+
+                  <p>
+                     I am proud to hold the AWS Certified Cloud Practitioner certification, which validates my foundational knowledge of cloud concepts, AWS services, and basic cloud architecture principles. 
+                     This certification demonstrates my ability to navigate the AWS Management Console, understand security measures, pricing models, and identify key AWS services across various domains.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Microsoft Azure Fundamentals</h3>
+                  <p class="info"><a href="https://www.credly.com/badges/64f24800-94a5-4636-b3ec-cd4ca8a618b9" target="_blank">Verify Here</a> <span>&bull;</span> <em class="date">Issued by Microsoft</em></p>
+
+                  <p>
+                     Additionally, I have earned the Microsoft Azure Fundamentals certification, showcasing my foundational knowledge of cloud concepts, Azure services, and basic cloud computing principles.
+                     I am proficient in navigating the Azure portal, understanding security measures, pricing models, and identifying key Azure services in different domains.
+                  </p>
+
+               </div>
+               
+
+            </div> <!-- item end -->
+            
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Linux Essentials</h3>
+                  <p class="info"><a href="https://bit.ly/3U7PQNN" target="_blank">Verify Here</a> <span>&bull;</span> <em class="date">Issued by Linux Professional Institute</em></p>
+
+                  <p>
+                     The Linux Essentials certification by LPI confirms my foundational knowledge of Linux, encompassing basic commands, file systems, user management, security, and open-source software. 
+                     I have demonstrated proficiency in working with various Linux distributions and possess a solid understanding of key Linux concepts.
+                  </p>
+
+               </div>
+               
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>CompTIA Security+</h3>
+                  <p class="info"><a href="https://www.credly.com/badges/fbef712d-5644-4a8f-8237-3ca992889bda/public_url" target="_blank">Verify Here</a> <span>&bull;</span> <em class="date">Issues by CompTIA</em></p>
+
+                  <p>
+                     In the realm of cybersecurity, I have acquired the CompTIA Security+ certification, which equips me with the necessary knowledge and skills to perform core security functions. 
+                     I have expertise in identifying and addressing potential threats, attacks, and vulnerabilities, along with proficiency in risk management, risk mitigation, threat management, and intrusion detection.
+                  </p>
+
+               </div>
+               
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>CompTIA A+</h3>
+                  <p class="info"><a href="https://www.credly.com/badges/e9a8fae8-ce1e-4c7c-b8cd-3a3d655c4c90/public_url" target="_blank">Verify Here</a> <span>&bull;</span> <em class="date">Issues by CompTIA</em></p>
+
+                  <p>
+                     As a holder of the CompTIA A+ certification, I have demonstrated my ability to solve critical IT support tasks, including device configuration, data backup and recovery, and operating system configuration. 
+                     This certification also validates my baseline security skills for IT support roles, such as malware detection and removal, addressing privacy concerns, and troubleshooting core service challenges.
+                  </p>
+
+               </div>
+               
+
+            </div> <!-- item end -->
+
+
+            
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+
+            <!-- PROJECTS
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Projects</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <!--https://shorturl.at/cOP68-->
+
+               <div class="twelve columns">
+
+                  <h3>AWS Cloud Resume Challenge</h3>
+                  <p class="info"><a href="https://ibb.co/Xbxqv9T" target="_blank">Architecture Diagram</a> </p>
+
+                  <p>
+
+                    The goal of this project was to leverage the power of the Cloud (in my case AWS) and some of it's key services to create a fully functioning serverless web application that "serves" (no pun intended) as a resume or portfolio (the website you are currently looking at). </p>
+                    </p>In summary, I setup an S3 bucket that stores all of my HTML, CSS, and JavaScript files for the website, and linked it as an origin to my CloudFront distribution to host the website. I set this up to be a secure site by reddirecting traffic to HTTPS and using AWS Certificate Manager (ACM) for the SSL certs. I also bought a domain to use with Route53 as my domain registrar, and created the A records to point my new awesome domain name (dillonmeacham.net) to my CloudFront distribution.</p>
+
+                    </p>I then created a visitor counter for the site using a DynamoDB table and Lamda function in Python for the API that gets the viewer count from the table, and displays it on the site after adding the necessary script tags in my HTML.</p>
+
+                    </p>After the site was functional and in production, I integrated CI/CD using GitHub actions to run a YAML workflow that updates my S3 bucket automatically after I commit and sync any code changes I make to my site via VSCode. </p>
+                  </p>
+                  <h3>Azure ML Infrastructure Automation with Terraform for Predictive Analytics</h3>
+
+                  <p>At my previous company, Concentra, I played a key role in developing Infrastructure as Code (IaC) solutions using Terraform. These solutions enabled us to automate the deployment of Machine Learning infrastructure on the Azure cloud platform, specifically for Predictive Analytics purposes. Additionally, I utilized GitLab for Source Control Management (SCM) and built Continuous Integration/Continuous Deployment (CI/CD) pipelines to streamline our development and deployment processes.</p>
+                  <h3>BitBucket to GitLab Transition</h3>
+
+                  <p>At Concentra, I actively contributed to the transition from Bitbucket to GitLab for Source Control Management (SCM). I played a key role in migrating our code repositories and ensuring a smooth transition to GitLab, leveraging its advanced collaboration and version control capabilities. Additionally, I assisted in transitioning our Continuous Integration/Continuous Deployment (CI/CD) pipelines from Bamboo to GitLab, streamlining our development and deployment processes using GitLab's comprehensive CI/CD features.</p>
+                  <h3>Knowledge Base Refresh</h3>
+
+                  <p>CI created and enhanced documentation and knowledge base articles at Concentra to improve troubleshooting processes and provide accessible resources for both ongoing and completed projects. By carefully curating and updating these materials, I ensured that team members had the necessary information to address any issues that arose during project execution. This proactive approach helped streamline problem-solving efforts and provided valuable references for future projects.</p>
+               </div>
+
+            </div> <!-- item end -->
+
+
+            
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row skill">
+
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h3>Tarrant County College</h3>
+                  <p class="info">IT Support Certification & Cyber Security Coursework <span>&bull;</span></p>
+
+				</div><!-- end skill-bars -->
+
+            <div class="nine columns main-col">
+
+               <h3>Byron Nelson High School</h3>
+                     <p class="info">High School Diploma <span>&bull;</span></p>
+   
+               </div><!-- end skill-bars -->
+            
+
+			</div> <!-- main-col end -->
+
+      </div> <!-- End skills -->
+
+   </section> <!-- Resume Section End-->
+
+   
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+               <li><a href="https://www.linkedin.com/in/dillon-meacham-b50369149/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://www.github.com/DillonMeacham" target="_blank"><i class="fa fa-github"></i></a></li>
+            </ul>
+
+            <ul class="copyright">
+               <li>&copy; Copyright 2014 CeeVee</li>
+               <li>Design by <a href="http://www.styleshout.com/" title="Styleshout" target="_blank">Styleshout</a></li>   
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+   <script src="js/index.js"></script>
+
+</body>
+
+</html>
